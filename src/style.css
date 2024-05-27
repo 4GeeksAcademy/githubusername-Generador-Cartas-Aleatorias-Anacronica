@@ -1,1 +1,57 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.shadow {
+  background-color: white;
+  width: 250px;
+  height: 500px;
+}
+
+.card-text {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  line-height: 5.8;
+}
+
+.paloTop {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  font-size: 60px;
+}
+
+.paloBottom {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  font-size: 60px;
+  transform: rotate(180deg);
+}
+
+/*.heart {
+  width: 24px;
+  height: 24px;
+  background: #ff5252;
+  clip-path: path(
+    "M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"
+  );
+  transform: scale(2);
+}
+
+.heart_rotate {
+  width: 20px;
+  height: 24px;
+  background: #ff5252;
+  clip-path: path(
+    "M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"
+  );
+  display: flex;
+  justify-content: end;
+  transform: rotate(180deg) scale(2);
+  margin-left: auto;
+  margin-right: 0;
+}*/
